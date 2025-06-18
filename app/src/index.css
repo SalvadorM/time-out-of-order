@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.emotions_section_controller {
+  display: flex;
+  width: 50%;
+  margin: 0 auto; 
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.controller_container {
+  z-index: 10;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding-bottom: 40px;
+}
+.small_text {
+  font-size: 14px;
+}
+.card_emotion {
+  padding: 12px 18px;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
